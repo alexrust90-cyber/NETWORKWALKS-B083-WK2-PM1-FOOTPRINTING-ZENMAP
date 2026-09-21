@@ -9,7 +9,7 @@ FOOTPRINTING AND NETWORK SCANNING PHASES
 | Cybersecurity Professional | Alexandra Rustamova |
 | Program/Batch | B083-Networkwalks |
 | Date | 17 September 2026 |
-| Modules Completed | W2-PM1 Footprinting with multiple Kali tools<br>W2-PM5 Zenmap based Network Scanning |
+| Modules Completed | W2-PM1 Footprinting with multiple Kali tools<br>W2-PM2: GHDB based Footprinting Attacks<br>W2-PM3: Maltego based Footprinting Attacks<br>W2-PM4: theHarvester based Footprinting Attacks<br>W2-PM5 Zenmap based Network Scanning |
 | Client/Target | 1. Networkwalks (secured with permission already)<br>2. My own local LAN Network |
 | Permission secured from client? | Yes |
 | Phases covered | Phase 1. Reconnaissance and Footprinting<br>Phase 2. Scanning and Network Discovery<br>Phase 3-5. In Progress |
