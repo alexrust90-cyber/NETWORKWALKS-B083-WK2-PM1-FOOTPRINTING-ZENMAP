@@ -12,7 +12,7 @@ FOOTPRINTING AND NETWORK SCANNING PHASES
 | Modules Completed | W2-PM1 Footprinting with multiple Kali tools<br>W2-PM2: GHDB based Footprinting Attacks<br>W2-PM3: Maltego based Footprinting Attacks<br>W2-PM4: theHarvester based Footprinting Attacks<br>W2-PM5 Zenmap based Network Scanning |
 | Client/Target | 1. Networkwalks (secured with permission already)<br>2. Microsoft.com (Target domain specified in the theHarvester training exercise for passive reconnaissance)<br>3. My own local LAN Network |
 | Permission secured from client? | Yes |
-| Phases covered | Phase 1. Reconnaissance and Footprinting<br>Phase 2. Scanning and Network Discovery<br>Phase 3-5. In Progress |
+| Phases covered | Phase 1. Reconnaissance and Footprinting<br>Phase 2. Scanning and Network Discovery<br>Phase 3. Vulnerability Assessment/Analysis<br>4-5. In Progress |
 
 </div>
 
