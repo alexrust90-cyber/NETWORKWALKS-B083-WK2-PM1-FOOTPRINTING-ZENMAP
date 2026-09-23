@@ -169,7 +169,7 @@ The scan also returned three corresponding MAC addresses for the discovered devi
 
 Once the host discovery process was completed, I used Zenmap's **Topology** feature to visualize the network connections. I enabled the legend to make the diagram easier to interpret and exported the resulting topology as a PDF, following the requirements of the practical exercise.
 
-**5. RISK ANALYSIS/IMPACT**
+### **5. RISK ANALYSIS/IMPACT**
 
 Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks.
 
@@ -199,26 +199,26 @@ These practical activities focused mainly on gathering information and identifyi
 
 For this reason, findings such as exposed software versions, IP addresses, or DNS records do not necessarily indicate that a system is vulnerable. Additional authorized security testing would be required to determine whether any of these findings could be exploited.
 
-**6. RECOMMENDATIONS**
+### **6. RECOMMENDATIONS**
 
-| #  | Finding                                                    | Recommendation                                                                                                                                                                                                                                |
-| -- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1  | Domain registration and infrastructure information exposed | Enable domain privacy where appropriate and minimize publicly available administrative information that is not required for legitimate purposes.                                                                                              |
-| 2  | Web technology information exposed                         | Keep WordPress and all installed plugins updated, remove unused components, and regularly assess exposed software for known vulnerabilities.                                                                                                  |
-| 3  | Server IP address identifiable                             | Protect the origin server with appropriate network controls and, where applicable, a reverse proxy or CDN. Restrict direct access to trusted sources where operationally feasible.                                                            |
-| 4  | HTTP technical information exposed                         | Review response headers to minimize unnecessary technical disclosure and verify that the publicly accessible `/wp-json/` endpoint exposes only information required by the application.                                                       |
-| 5  | WAF technology identifiable                                | Keep ModSecurity and its rulesets properly maintained, regularly review WAF configurations and logs, and validate that security controls are functioning as intended.                                                                         |
-| 6  | DNS infrastructure information exposed                     | Review DNS records regularly and remove unnecessary or obsolete entries. Avoid exposing records that unnecessarily disclose internal systems or services.                                                                                     |
-| 7  | Multiple live hosts visible on local network               | Maintain an up-to-date inventory of authorized devices, investigate unidentified hosts, and apply appropriate network segmentation and access controls.                                                                                       |
-| 8  | Publicly indexed security camera interfaces identified     | Review Internet-facing camera systems and ensure that they require strong authentication and appropriate access controls. Remove unnecessary public exposure and regularly review search-engine indexing for unintentionally exposed devices. |
-| 9  | Publicly indexed documents identified                      | Review publicly accessible files and directories to ensure that only intended content is indexed. Remove unnecessary files and use appropriate access controls for resources that should not be publicly available.                           |
-| 10 | Maltego email enumeration limited by API configuration     | Configure the required API integrations where authorized and available, or use alternative approved data sources to validate the reconnaissance results. Document tool and API limitations when complete enumeration is not possible.         |
-| 11 | Public email and subdomain information collected           | Review publicly exposed email addresses and subdomains regularly. Remove unnecessary or obsolete entries and ensure that exposed accounts and services use appropriate authentication and security controls.                                  |
+| #  | Finding | Recommendation |
+| --- | --- | --- |
+| 1  | Domain registration and infrastructure information exposed | Enable domain privacy where appropriate and minimize publicly available administrative information that is not required for legitimate purposes. |
+| 2  | Web technology information exposed | Keep WordPress and all installed plugins updated, remove unused components, and regularly assess exposed software for known vulnerabilities. |
+| 3  | Server IP address identifiable | Protect the origin server with appropriate network controls and, where applicable, a reverse proxy or CDN. Restrict direct access to trusted sources where operationally feasible. |
+| 4  | HTTP technical information exposed | Review response headers to minimize unnecessary technical disclosure and verify that the publicly accessible `/wp-json/` endpoint exposes only information required by the application. |
+| 5  | WAF technology identifiable | Keep ModSecurity and its rulesets properly maintained, regularly review WAF configurations and logs, and validate that security controls are functioning as intended. |
+| 6  | DNS infrastructure information exposed | Review DNS records regularly and remove unnecessary or obsolete entries. Avoid exposing records that unnecessarily disclose internal systems or services. |
+| 7  | Multiple live hosts visible on local network | Maintain an up-to-date inventory of authorized devices, investigate unidentified hosts, and apply appropriate network segmentation and access controls. |
+| 8  | Publicly indexed security camera interfaces identified | Review Internet-facing camera systems and ensure that they require strong authentication and appropriate access controls. Remove unnecessary public exposure and regularly review search-engine indexing for unintentionally exposed devices. |
+| 9  | Publicly indexed documents identified | Review publicly accessible files and directories to ensure that only intended content is indexed. Remove unnecessary files and use appropriate access controls for resources that should not be publicly available. |
+| 10 | Maltego email enumeration limited by API configuration | Configure the required API integrations where authorized and available, or use alternative approved data sources to validate the reconnaissance results. Document tool and API limitations when complete enumeration is not possible. |
+| 11 | Public email and subdomain information collected | Review publicly exposed email addresses and subdomains regularly. Remove unnecessary or obsolete entries and ensure that exposed accounts and services use appropriate authentication and security controls.                                  |
 
 
 These recommendations are intended as security-hardening measures based on the information observed during the footprinting and network discovery exercises. The identified findings do not, by themselves, confirm the existence of exploitable vulnerabilities. Their security significance should be assessed in the context of the organization's architecture, configuration, and security requirements, followed by authorized validation where appropriate.
 
-**7. Conclusion**
+### **7. Conclusion**
 
 During **Week 2 of my Cybersecurity & Ethical Hacking internship**, I worked on several areas of the security assessment process, including **footprinting, OSINT, and network scanning**. These activities allowed me to practice gathering publicly available information about organizations and identifying active hosts within a local network.
 
@@ -231,7 +231,7 @@ One of the main lessons from this week was the importance of **reconnaissance an
 Finally, these activities reinforced the importance of **accurate documentation, risk assessment, and authorized testing**. All exercises documented in this report were conducted within the assigned educational and internship scope.
 
 
-**8. Evidences Collected**
+### **8. Evidences Collected**
 
 <img width="1920" height="896" alt="whois" src="https://github.com/user-attachments/assets/d1c2755c-00fe-439e-a8c0-d325ce895af3" />
 <img width="1920" height="896" alt="whatweb" src="https://github.com/user-attachments/assets/ab3ea5bf-19df-47a3-a831-89f1f372b693" />
